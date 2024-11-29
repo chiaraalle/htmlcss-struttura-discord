@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-around;
     background-color: rgb(62, 62, 230);
-    height: 250px;
+    height: 100px;
     padding: 10px;
     flex-direction: row;
     align-items: baseline;
@@ -37,14 +37,17 @@ div.square.nav {
 
 .container {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(62, 62, 230);
+    padding: 100px;
+
 }
 
 .square.title {
     height: 20px;
     width: 20px;
-    padding: 20px 60px;
+    padding: 100px 200px;
     background-color: whitesmoke;
 
 }
@@ -83,22 +86,23 @@ div.square.nav {
     height: 800px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 100px;
     gap: 50px;
 }
 
 div.img-section {
-    width: 60px;
-    height: 30px;
-    padding: 80px 100px;
+    width: 100px;
+    height: 80px;
+    padding: 100px 150px;
     background-color: white; 
     
 }
 
 div.text-section {
-    width: 30px;
-    height: 10px;
-    padding: 60px 80px;
+    width: 80px;
+    height: 60px;
+    padding: 80px 100px;
     background-color: white; 
    
 }
