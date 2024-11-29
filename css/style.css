@@ -4,16 +4,14 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: rgb(62, 62, 230);
-    height: 500px;
-    padding: 10px;
-
-}
-
 .flex-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: rgb(62, 62, 230);
+    height: 250px;
+    padding: 10px;
+    flex-direction: row;
+    align-items: baseline;
 }
 
 button {
@@ -25,28 +23,88 @@ button {
     background-color: whitesmoke;
 }
 
-.flex-container .square img {
-    height: 50px;
+div.square.img {
     width: 20px;
-
+    height: 10px;
+    padding: 20px 30px;
 }
 
-.flex-container .square nav {
-    height: 80px;
-    width: 50px;
-
-}
-
-.square title {
-    height: 100px;
-    width: 100px;
-    
-
+div.square.nav {
+    width: 30px;
+    height: 10px;
+    padding: 20px 60px;
 }
 
 .container {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    flex-direction: row;
 }
 
+.square.title {
+    height: 20px;
+    width: 20px;
+    padding: 20px 60px;
+    background-color: whitesmoke;
+
+}
+.violet.section {
+    background-color: violet;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 100px;
+    gap: 50px;
+}
+
+.pink.section {
+    background-color: pink;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 100px;
+    gap: 50px;
+}
+
+.coral.section {
+    background-color: coral;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 100px;
+    gap: 50px;
+}
+
+.green.section {
+    background-color: green;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 50px;
+}
+
+div.img-section {
+    width: 60px;
+    height: 30px;
+    padding: 80px 100px;
+    background-color: white; 
+    
+}
+
+div.text-section {
+    width: 30px;
+    height: 10px;
+    padding: 60px 80px;
+    background-color: white; 
+   
+}
+
+
+footer{
+    background-color: rgb(62, 62, 230);
+    height: 200px;
+}
